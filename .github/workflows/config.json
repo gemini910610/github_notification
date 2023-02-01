@@ -1,0 +1,7 @@
+{
+    "target": {
+        "push": [],
+        "pull_request": []
+    },
+    "mode": "channel"
+}
