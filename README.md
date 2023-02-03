@@ -5,7 +5,7 @@ when someone makes a push or pull request to the repository, a discord notificat
     ```
     git clone https://github.com/gemini910610/github_notification.git
     ```
-2. delete .git folder
+2. delete .git folder and README.md
 3. create your repository on github
 4. go to Settings > Security > Secrets and variables > Actions, click "New repository secret" button
     * if you want to send notification to the channel<br>
