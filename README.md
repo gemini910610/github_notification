@@ -13,7 +13,7 @@ when someone makes a push or pull request to the repository, a discord notificat
         Name: TOKEN<br>
         Secret: discord bot token
 5. invite your bot to your discord server
-    * if you want to send notification to server, you can skip this step
+    * if you want to send notification to the channel, you can skip this step
 6. modify library in requirements.txt
     * if you want to send notification to the channel<br>
       `discordwebhook`
