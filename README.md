@@ -2,7 +2,9 @@
 when someone makes a push or pull request to the repository, a discord notification will be sent to the channel or user
 ## How to use
 1. clone this repository<br>
-    `git clone https://github.com/gemini910610/github_notification.git`
+    ```
+    git clone https://github.com/gemini910610/github_notification.git
+    ```
 2. delete .git folder
 3. create your repository on github
 4. go to Settings > Security > Secrets and variables > Actions, click "New repository secret" button
@@ -43,6 +45,11 @@ when someone makes a push or pull request to the repository, a discord notificat
   **default: `[]`**<br>
   list of specified branches<br>
   if the list is not empty, notifications will be sent only for pull request to branches in the list
+* for example:<br>
+  ```
+  "target" : { "push" : ["main"], "pull_request" : [] }
+  ```
+  only push to main branch will send notification, and pull request to any branch will send notification
 ### mode<br>
 **default: `"channel"`**<br>
 define whether to send notifications to channel or user
