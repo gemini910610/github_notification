@@ -16,18 +16,13 @@ when someone makes a push or pull request to the repository, a discord notificat
         Secret: discord bot token
 5. invite your bot to your discord server
     * if you want to send notification to the channel, you can skip this step
-6. modify library in requirements.txt
-    * if you want to send notification to the channel<br>
-      `discordwebhook`
-    * if you want to send notification to the user<br>
-      `requests`
-7. modify value in config.json
+6. modify value in config.json
     * if you want to send notification to the channel<br>
       set mode to `"channel"`
     * if you want to send notification to the user<br>
       set mode to `"user"`<br>
       set user to list of user id
-8. push to your repository
+7. push to your repository
     ```
     git init
     git remote add origin <repository url>
