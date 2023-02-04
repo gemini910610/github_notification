@@ -16,6 +16,7 @@ when someone makes a push or pull request to the repository, a discord notificat
         Secret: discord bot token
 5. invite your bot to your discord server
     * if you want to send notification to the channel, you can skip this step
+    * note: all users need to have a common server with the bot (users can be in different servers)
 6. modify value in config.json
     * if you want to send notification to the channel<br>
       set mode to `"channel"`
