@@ -7,7 +7,7 @@ when someone makes a push or pull request to the repository, a discord notificat
     ```
 2. delete .git folder and README.md
 3. create your repository on github
-4. go to Settings > Security > Secrets and variables > Actions, click "New repository secret" button
+4. go to your repository Settings > Security > Secrets and variables > Actions, click "New repository secret" button
     * if you want to send notification to the channel<br>
        Name: WEBHOOK<br>
        Secret: discord channel webhook url
